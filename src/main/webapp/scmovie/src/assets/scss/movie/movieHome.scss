@@ -1,0 +1,55 @@
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slickArrow {
+  position: absolute;
+  top: 39%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.nextButton {
+  right: -15px;
+  background-image: url("../../icons/nextArrow.png");
+}
+
+.prevButton {
+  left: -15px;
+  z-index: 10;
+  background-image: url("../../icons/prevArrow.png");
+}
+
+.slick-track .slick-slide {
+  .posterSection {
+    width: 212px;
+    margin: 4px;
+    .imgWrap {
+      padding: 0 4px;
+      height: 306px;
+      width: 212px;
+      img {
+        width: 212px;
+        height: 100%;
+        object-fit: cover;
+        // }
+      }
+    }
+    .posterInfoWrap {
+      width: 212px;
+      padding: 0 4px;
+    }
+  }
+  .posterSection {
+    width: 212px;
+    height: 390px;
+  }
+}
